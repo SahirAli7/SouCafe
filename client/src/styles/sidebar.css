@@ -1,0 +1,18 @@
+/* Removed fixed positioning and responsive overrides */
+
+
+
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.admin-link {
+  background-color: #ffffff !important;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.admin-link:hover {
+  background-color: #f8f9fa !important;
+}
+

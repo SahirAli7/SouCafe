@@ -1,0 +1,65 @@
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f7fc; /* Light background color for the page */
+  }
+  
+  .auth-box {
+    background: white;
+    width: 100%;
+    max-width: 400px; /* Max width for better responsiveness */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px 30px;
+  }
+  
+  .auth-title {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .auth-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5e72e4; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-box button:hover {
+    background-color: #4c63e6; /* Button hover effect */
+  }
+  
+  .auth-box .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .auth-box .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .auth-box .form-group input:focus {
+    border-color: #5e72e4;
+    outline: none;
+  }
+  
+  @media (max-width: 500px) {
+    .auth-box {
+      padding: 15px;
+    }
+  
+    .auth-title {
+      font-size: 1.5rem;
+    }
+  }
+  

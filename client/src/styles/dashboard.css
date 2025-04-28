@@ -1,0 +1,83 @@
+/* General container for the dashboard layout */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  /* Admin Sidebar */
+  .admin-sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .admin-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-sidebar ul li {
+    margin-bottom: 15px;
+  }
+  
+  .admin-sidebar ul li a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .admin-sidebar ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  /* Content section (to the right of the sidebar) */
+  .dashboard-content {
+    margin-left: 250px; /* This should match the sidebar width */
+    padding: 40px;
+    flex: 1;
+  }
+  
+  .dashboard-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-content p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+  
+    .admin-sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  
+    .dashboard-content {
+      margin-left: 0;
+      padding: 20px;
+    }
+  }
+  

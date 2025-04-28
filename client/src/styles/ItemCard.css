@@ -1,0 +1,47 @@
+.item-card-modern {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-card-img-modern {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 3px solid #ffa500;
+}
+
+.item-card-body-modern {
+  padding: 20px;
+  text-align: center;
+}
+
+.item-card-title-modern {
+  font-size: 1.5rem;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.item-card-price-modern {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.item-card-btn-modern {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.item-card-btn-modern:hover {
+  background-color: #218838;
+}
